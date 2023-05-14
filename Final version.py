@@ -31,4 +31,3 @@ for question in quiz_order:
 
 # Display the final score
 print(f"Quiz complete! You got {score} out of {len(quiz_questions)} correct.")
-

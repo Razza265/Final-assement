@@ -7,6 +7,11 @@ print("Let's get started!")
 name = input("Please enter your name: ")
 age = input("Please enter your age: ")
 
+start_quiz = input("Hi " + name + "! Would you like to take the Maori Quiz? (yes/no): ")
+if start_quiz.lower() != "yes":
+    print("No problem! Feel free to come back whenever you're ready to test your Maori knowledge. Goodbye!")
+    exit()
+
 questions = [
     {
         "question": "What is the Maori word for 'Monday'?",
